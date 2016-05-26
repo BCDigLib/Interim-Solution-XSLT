@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RoleLookUp>
+  <role text="Abridger" code="abr"/>
+  <role text="Actor" code="act"/>
+  <role text="Adapter" code="adp"/>
+  <role text="Addressee" code="rcp"/>
+  <role text="Analyst" code="anl"/>
+  <role text="Animator" code="anm"/>
+  <role text="Annotator" code="ann"/>
+  <role text="Appellant" code="apl"/>
+  <role text="Appellee" code="ape"/>
+  <role text="Applicant" code="app"/>
+  <role text="Architect" code="arc"/>
+  <role text="Arranger" code="arr"/>
+  <role text="Art copyist" code="acp"/>
+  <role text="Art director" code="adi"/>
+  <role text="Artist" code="art"/>
+  <role text="Artistic director" code="ard"/>
+  <role text="Assignee" code="asg"/>
+  <role text="Associated name" code="asn"/>
+  <role text="Attributed name" code="att"/>
+  <role text="Auctioneer" code="auc"/>
+  <role text="Author" code="aut"/>
+  <role text="Author in quotations or text abstracts" code="aqt"/>
+  <role text="Author of afterword, colophon, etc." code="aft"/>
+  <role text="Author of dialog" code="aud"/>
+  <role text="Author of introduction, etc." code="aui"/>
+  <role text="Autographer" code="ato"/>
+  <role text="Bibliographic antecedent" code="ant"/>
+  <role text="Binder" code="bnd"/>
+  <role text="Binding designer" code="bdd"/>
+  <role text="Blurb writer" code="blw"/>
+  <role text="Book designer" code="bkd"/>
+  <role text="Book producer" code="bkp"/>
+  <role text="Bookjacket designer" code="bjd"/>
+  <role text="Bookplate designer" code="bpd"/>
+  <role text="Bookseller" code="bsl"/>
+  <role text="Braille embosser" code="brl"/>
+  <role text="Broadcaster" code="brd"/>
+  <role text="Calligrapher" code="cll"/>
+  <role text="Cartographer" code="ctg"/>
+  <role text="Caster" code="cas"/>
+  <role text="Censor" code="cns"/>
+  <role text="Choreographer" code="chr"/>
+  <role text="Cinematographer" code="cng"/>
+  <role text="Client" code="cli"/>
+  <role text="Collection registrar" code="cor"/>
+  <role text="Collector" code="col"/>
+  <role text="Collotyper" code="clt"/>
+  <role text="Colorist" code="clr"/>
+  <role text="Commentator" code="cmm"/>
+  <role text="Commentator for written text" code="cwt"/>
+  <role text="Compiler" code="com"/>
+  <role text="Complainant" code="cpl"/>
+  <role text="Complainant-appellant" code="cpt"/>
+  <role text="Complainant-appellee" code="cpe"/>
+  <role text="Composer" code="cmp"/>
+  <role text="Compositor" code="cmt"/>
+  <role text="Conceptor" code="ccp"/>
+  <role text="Conductor" code="cnd"/>
+  <role text="Conservator" code="con"/>
+  <role text="Consultant" code="csl"/>
+  <role text="Consultant to a project" code="csp"/>
+  <role text="Contestant" code="cos"/>
+  <role text="Contestant-appellant" code="cot"/>
+  <role text="Contestant-appellee" code="coe"/>
+  <role text="Contestee" code="cts"/>
+  <role text="Contestee-appellant" code="ctt"/>
+  <role text="Contestee-appellee" code="cte"/>
+  <role text="Contractor" code="ctr"/>
+  <role text="Contributor" code="ctb"/>
+  <role text="Copyright claimant" code="cpc"/>
+  <role text="Copyright holder" code="cph"/>
+  <role text="Corrector" code="crr"/>
+  <role text="Correspondent" code="crp"/>
+  <role text="Costume designer" code="cst"/>
+  <role text="Court governed" code="cou"/>
+  <role text="Court reporter" code="crt"/>
+  <role text="Cover designer" code="cov"/>
+  <role text="Creator" code="cre"/>
+  <role text="Curator" code="cur"/>
+  <role text="Dancer" code="dnc"/>
+  <role text="Data contributor" code="dtc"/>
+  <role text="Data manager" code="dtm"/>
+  <role text="Dedicatee" code="dte"/>
+  <role text="Dedicator" code="dto"/>
+  <role text="Defendant" code="dfd"/>
+  <role text="Defendant-appellant" code="dft"/>
+  <role text="Defendant-appellee" code="dfe"/>
+  <role text="Degree granting institution" code="dgg"/>
+  <role text="Degree supervisor" code="dgs"/>
+  <role text="Delineator" code="dln"/>
+  <role text="Depicted" code="dpc"/>
+  <role text="Depositor" code="dpt"/>
+  <role text="Designer" code="dsr"/>
+  <role text="Director" code="drt"/>
+  <role text="Dissertant" code="dis"/>
+  <role text="Distribution place" code="dbp"/>
+  <role text="Distributor" code="dst"/>
+  <role text="Donor" code="dnr"/>
+  <role text="Draftsman" code="drm"/>
+  <role text="Dubious author" code="dub"/>
+  <role text="Editor" code="edt"/>
+  <role text="Editor of compilation" code="edc"/>
+  <role text="Editor of moving image work" code="edm"/>
+  <role text="Electrician" code="elg"/>
+  <role text="Electrotyper" code="elt"/>
+  <role text="Enacting jurisdiction" code="enj"/>
+  <role text="Engineer" code="eng"/>
+  <role text="Engraver" code="egr"/>
+  <role text="Etcher" code="etr"/>
+  <role text="Event place" code="evp"/>
+  <role text="Expert" code="exp"/>
+  <role text="Expert" code="exp"/>
+  <role text="Facsimilist" code="fac"/>
+  <role text="Field director" code="fld"/>
+  <role text="Film director" code="fmd"/>
+  <role text="Film distributor" code="fds"/>
+  <role text="Film editor" code="flm"/>
+  <role text="Film producer" code="fmp"/>
+  <role text="Filmmaker" code="fmk"/>
+  <role text="First party" code="fpy"/>
+  <role text="Forger" code="frg"/>
+  <role text="Former owner" code="fmo"/>
+  <role text="Funder" code="fnd"/>
+  <role text="Geographic information specialist" code="gis"/>
+  <role text="Honoree" code="hnr"/>
+  <role text="Host" code="hst"/>
+  <role text="Host institution" code="his"/>
+  <role text="Illuminator" code="ilu"/>
+  <role text="Illustrator" code="ill"/>
+  <role text="Inscriber" code="ins"/>
+  <role text="Instrumentalist" code="itr"/>
+  <role text="Interviewee" code="ive"/>
+  <role text="Interviewer" code="ivr"/>
+  <role text="Inventor" code="inv"/>
+  <role text="Issuing body" code="isb"/>
+  <role text="Judge" code="jud"/>
+  <role text="Jurisdiction governed" code="jug"/>
+  <role text="Laboratory" code="lbr"/>
+  <role text="Laboratory director" code="ldr"/>
+  <role text="Landscape architect" code="lsa"/>
+  <role text="Lead" code="led"/>
+  <role text="Lender" code="len"/>
+  <role text="Libelant" code="lil"/>
+  <role text="Libelant-appellant" code="lit"/>
+  <role text="Libelant-appellee" code="lie"/>
+  <role text="Libelee" code="lel"/>
+  <role text="Libelee-appellant" code="let"/>
+  <role text="Libelee-appellee" code="lee"/>
+  <role text="Librettist" code="lbt"/>
+  <role text="Licensee" code="lse"/>
+  <role text="Licensor" code="lso"/>
+  <role text="Lighting designer" code="lgd"/>
+  <role text="Lithographer" code="ltg"/>
+  <role text="Lyricist" code="lyr"/>
+  <role text="Manufacture place" code="mfp"/>
+  <role text="Manufacturer" code="mfr"/>
+  <role text="Marbler" code="mrb"/>
+  <role text="Markup editor" code="mrk"/>
+  <role text="Medium" code="med"/>
+  <role text="Metadata contact" code="mdc"/>
+  <role text="Metal-engraver" code="mte"/>
+  <role text="Minute taker" code="mtk"/>
+  <role text="Moderator" code="mod"/>
+  <role text="Monitor" code="mon"/>
+  <role text="Music copyist" code="mcp"/>
+  <role text="Musical director" code="msd"/>
+  <role text="Musician" code="mus"/>
+  <role text="Narrator" code="nrt"/>
+  <role text="Onscreen presenter" code="osp"/>
+  <role text="Opponent" code="opn"/>
+  <role text="Organizer" code="orm"/>
+  <role text="Originator" code="org"/>
+  <role text="Other" code="oth"/>
+  <role text="Owner" code="own"/>
+  <role text="Panelist" code="pan"/>
+  <role text="Papermaker" code="ppm"/>
+  <role text="Patent applicant" code="pta"/>
+  <role text="Patent holder" code="pth"/>
+  <role text="Patron" code="pat"/>
+  <role text="Performer" code="prf"/>
+  <role text="Permitting agency" code="pma"/>
+  <role text="Photographer" code="pht"/>
+  <role text="Plaintiff" code="ptf"/>
+  <role text="Plaintiff-appellant" code="ptt"/>
+  <role text="Plaintiff-appellee" code="pte"/>
+  <role text="Platemaker" code="plt"/>
+  <role text="Praeses" code="pra"/>
+  <role text="Presenter" code="pre"/>
+  <role text="Printer" code="prt"/>
+  <role text="Printer of plates" code="pop"/>
+  <role text="Printmaker" code="prm"/>
+  <role text="Process contact" code="prc"/>
+  <role text="Producer" code="pro"/>
+  <role text="Production company" code="prn"/>
+  <role text="Production designer" code="prs"/>
+  <role text="Production manager" code="pmn"/>
+  <role text="Production personnel" code="prd"/>
+  <role text="Production place" code="prp"/>
+  <role text="Programmer" code="prg"/>
+  <role text="Project director" code="pdr"/>
+  <role text="Proofreader" code="pfr"/>
+  <role text="Provider" code="prv"/>
+  <role text="Publication place" code="pup"/>
+  <role text="Publisher" code="pbl"/>
+  <role text="Publishing director" code="pbd"/>
+  <role text="Puppeteer" code="ppt"/>
+  <role text="Radio director" code="rdd"/>
+  <role text="Radio producer" code="rpc"/>
+  <role text="Recording engineer" code="rce"/>
+  <role text="Recordist" code="rcd"/>
+  <role text="Redaktor" code="red"/>
+  <role text="Renderer" code="ren"/>
+  <role text="Reporter" code="rpt"/>
+  <role text="Repository" code="rps"/>
+  <role text="Research team head" code="rth"/>
+  <role text="Research team member" code="rtm"/>
+  <role text="Researcher" code="res"/>
+  <role text="Respondent" code="rsp"/>
+  <role text="Respondent-appellant" code="rst"/>
+  <role text="Respondent-appellee" code="rse"/>
+  <role text="Responsible party" code="rpy"/>
+  <role text="Restager" code="rsg"/>
+  <role text="Restorationist" code="rsr"/>
+  <role text="Reviewer" code="rev"/>
+  <role text="Rubricator" code="rbr"/>
+  <role text="Scenarist" code="sce"/>
+  <role text="Scientific advisor" code="sad"/>
+  <role text="Screenwriter" code="aus"/>
+  <role text="Scribe" code="scr"/>
+  <role text="Sculptor" code="scl"/>
+  <role text="Second party" code="spy"/>
+  <role text="Secretary" code="sec"/>
+  <role text="Seller" code="sll"/>
+  <role text="Set designer" code="std"/>
+  <role text="Setting" code="stg"/>
+  <role text="Signer" code="sgn"/>
+  <role text="Singer" code="sng"/>
+  <role text="Sound designer" code="sds"/>
+  <role text="Speaker" code="spk"/>
+  <role text="Sponsor" code="spn"/>
+  <role text="Stage director" code="sgd"/>
+  <role text="Stage manager" code="stm"/>
+  <role text="Standards body" code="stn"/>
+  <role text="Stereotyper" code="str"/>
+  <role text="Storyteller" code="stl"/>
+  <role text="Supporting host" code="sht"/>
+  <role text="Surveyor" code="srv"/>
+  <role text="Teacher" code="tch"/>
+  <role text="Technical director" code="tcd"/>
+  <role text="Television director" code="tld"/>
+  <role text="Television producer" code="tlp"/>
+  <role text="Thesis advisor" code="ths"/>
+  <role text="Transcriber" code="trc"/>
+  <role text="Translator" code="trl"/>
+  <role text="Type designer" code="tyd"/>
+  <role text="Typographer" code="tyg"/>
+  <role text="University place" code="uvp"/>
+  <role text="Videographer" code="vdg"/>
+  <role text="Voice actor" code="vac"/>
+  <role text="Witness" code="wit"/>
+  <role text="Wood engraver" code="wde"/>
+  <role text="Woodcutter" code="wdc"/>
+  <role text="Writer of accompanying material" code="wam"/>
+  <role text="Writer of added commentary" code="wac"/>
+  <role text="Writer of added lyrics" code="wal"/>
+  <role text="Writer of added text" code="wat"/>
+  <role text="Writer of introduction" code="win"/>
+  <role text="Writer of preface" code="wpr"/>
+  <role text="Writer of supplementary textual content" code="wst"/>
+</RoleLookUp>

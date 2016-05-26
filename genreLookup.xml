@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genreLookup>
+    <!-- local Brooker values -->
+    <genre value="deed for a church pew" term="Manuscripts" auth="gmgpc"/>
+    <genre value="property deed" term="Manuscripts" auth="gmgpc"/>
+    <genre value="mortgage assignment" term="Manuscripts" auth="gmgpc"/>
+    <genre value="property easement" term="Manuscripts" auth="gmgpc"/>
+    <genre value="property lease" term="Manuscripts" auth="gmgpc"/>
+    <genre value="assignment of mortgage" term="Manuscripts" auth="gmgpc"/>
+    <genre value="patent" term="Manuscripts" auth="gmgpc"/>
+    <genre value="appointment of an attorney" term="Manuscripts" auth="gmgpc"/>
+    <genre value="deed" term="Manuscripts" auth="gmgpc"/>
+    <genre value="subpoena" term="Manuscripts" auth="gmgpc"/>
+    <genre value="statement of property" term="Manuscripts" auth="gmgpc"/>
+    <genre value="agreement" term="Manuscripts" auth="gmgpc"/>
+    <genre value="notice" term="Manuscripts" auth="gmgpc"/>
+    <genre value="certificate" term="Manuscripts" auth="gmgpc"/>
+    <genre value="bond" term="Manuscripts" auth="gmgpc"/>
+    <genre value="legal document" term="Documents" auth="gmgpc"/>
+    <genre value="jury summons" term="Manuscripts" auth="gmgpc"/>
+    <genre value="tax assessment" term="Manuscripts" auth="gmgpc"/>
+    <genre value="property listing" term="Manuscripts" auth="gmgpc"/>
+    <genre value="lease" term="Manuscripts" auth="gmgpc"/>
+    <genre value="court warrant" term="Manuscripts" auth="gmgpc"/>
+    <genre value="meeting notice" term="Manuscripts" auth="gmgpc"/>
+    <genre value="indentured servant contract" term="Manuscripts" auth="gmgpc"/>
+    <genre value="opinion letter" term="Manuscripts" auth="gmgpc"/>
+    <genre value="property map" term="Maps" auth="gmgpc"/>
+    <genre value="pension" term="Manuscripts" auth="gmgpc"/>
+    <genre value="correspondence" term="Correspondence" auth="lctgm"/>
+    <genre value="partnership agreement" term="Manuscripts" auth="gmgpc"/>
+    <genre value="congressional report" term="Manuscripts" auth="gmgpc"/>
+    <genre value="military exemption" term="Manuscripts" auth="gmgpc"/>
+    <genre value="purchase order" term="Manuscripts" auth="gmgpc"/>
+    <genre value="appointment" term="Manuscripts" auth="gmgpc"/>
+    <genre value="birth record" term="Manuscripts" auth="gmgpc"/>
+    <genre value="land survey" term="Manuscripts" auth="gmgpc"/>
+    <genre value="mortgage" term="Manuscripts" auth="gmgpc"/>
+    <genre value="agreement to buy" term="Manuscripts" auth="gmgpc"/>
+    <genre value="meeting minutes" term="Manuscripts" auth="gmgpc"/>
+    <genre value="advertisement" term="Manuscripts" auth="gmgpc"/>
+    <genre value="articles of agreement" term="Manuscripts" auth="gmgpc"/>
+    <genre value="power of attorney" term="Manuscripts" auth="gmgpc"/>
+    <genre value="deposition" term="Manuscripts" auth="gmgpc"/>
+    <genre value="promissory note" term="Manuscripts" auth="gmgpc"/>
+    <genre value="invoice" term="Manuscripts" auth="gmgpc"/>
+    <genre value="probate document" term="Documents" auth="gmgpc"/>
+    <genre value="letter of recommendation" term="Manuscripts" auth="gmgpc"/>
+    <genre value="political ticket" term="Manuscripts" auth="gmgpc"/>
+    <genre value="bail bond" term="Manuscripts" auth="gmgpc"/>
+    <genre value="expense report" term="Manuscripts" auth="gmgpc"/>
+    <genre value="photograph" term="Photographs" auth="gmgpc"/>
+    <genre value="guardianship" term="Manuscripts" auth="gmgpc"/>
+    <genre value="insurance policy" term="Manuscripts" auth="gmgpc"/>
+    <genre value="election results" term="Manuscripts" auth="gmgpc"/>
+    <genre value="business card" term="Cards" auth="gmgpc"/>
+    <genre value="military commission" term="Manuscripts" auth="gmgpc"/>
+    <genre value="invitation" term="Manuscripts" auth="gmgpc"/>
+    <genre value="court document" term="Documents" auth="gmgpc"/>
+    <genre value="writ" term="Manuscripts" auth="gmgpc"/>
+    <genre value="complaint" term="Manuscripts" auth="gmgpc"/>
+    <genre value="bill of sale" term="Manuscripts" auth="gmgpc"/>
+    <genre value="account ledger" term="Manuscripts" auth="gmgpc"/>
+    <genre value="order" term="Manuscripts" auth="gmgpc"/>
+    <genre value="ballot" term="Manuscripts" auth="gmgpc"/>
+    <genre value="legal testimony" term="Manuscripts" auth="gmgpc"/>
+    <genre value="legal petition" term="Manuscripts" auth="gmgpc"/>
+    <genre value="attorney appointment" term="Manuscripts" auth="gmgpc"/>
+    <genre value="obituary" term="Manuscripts" auth="gmgpc"/>
+    <genre value="court ruling" term="Manuscripts" auth="gmgpc"/>
+    <genre value="tax protest" term="Manuscripts" auth="gmgpc"/>
+    <genre value="newspaper" term="Newspapers" auth="lctgm"/>
+    <genre value="postcard" term="Manuscripts" auth="gmgpc"/>
+    <genre value="appraisal" term="Manuscripts" auth="gmgpc"/>
+    <genre value="estate inventory" term="Manuscripts" auth="gmgpc"/>
+    <genre value="letter" term="Manuscripts" auth="gmgpc"/>
+    <genre value="oath of allegiance" term="Manuscripts" auth="gmgpc"/>
+    <genre value="arrest warrant" term="Manuscripts" auth="gmgpc"/>
+    <genre value="church service" term="Manuscripts" auth="gmgpc"/>
+    <genre value="receipt" term="Manuscripts" auth="gmgpc"/>
+    <genre value="almanac" term="Manuscripts" auth="gmgpc"/>
+    <genre value="town records" term="Manuscripts" auth="gmgpc"/>
+    <genre value="writ of execution" term="Manuscripts" auth="gmgpc"/>
+    <genre value="farmer&apos;s almanack" term="Manuscripts" auth="gmgpc"/>
+    <genre value="death records" term="Manuscripts" auth="gmgpc"/>
+    <genre value="marriage certificate" term="Manuscripts" auth="gmgpc"/>
+    <genre value="tax bill" term="Manuscripts" auth="gmgpc"/>
+    <genre value="description of property" term="Manuscripts" auth="gmgpc"/>
+    <genre value="permit" term="Manuscripts" auth="gmgpc"/>
+    <genre value="sermon" term="Manuscripts" auth="gmgpc"/>
+    <genre value="meeting notes" term="Manuscripts" auth="gmgpc"/>
+    <genre value="survey map" term="Maps" auth="gmgpc"/>
+    <genre value="easement" term="Manuscripts" auth="gmgpc"/>
+    <genre value="military record" term="Manuscripts" auth="gmgpc"/>
+    <genre value="survey document" term="Documents" auth="gmgpc"/>
+    <genre value="legal contract" term="Manuscripts" auth="gmgpc"/>
+    <genre value="diary" term="Manuscripts" auth="gmgpc"/>
+    <genre value="military document" term="Documents" auth="gmgpc"/>
+    <genre value="genealogy" term="Manuscripts" auth="gmgpc"/>
+    <genre value="auction record" term="Manuscripts" auth="gmgpc"/>
+    <genre value="account" term="Manuscripts" auth="gmgpc"/>
+    <genre value="stock transfer" term="Manuscripts" auth="gmgpc"/>
+    <genre value="liquor license" term="Manuscripts" auth="gmgpc"/>
+    <genre value="will" term="Manuscripts" auth="gmgpc"/>
+    <genre value="financial report" term="Manuscripts" auth="gmgpc"/>
+    <genre value="court record" term="Manuscripts" auth="gmgpc"/>
+    <genre value="legal notes" term="Manuscripts" auth="gmgpc"/>
+    <genre value="bill" term="Manuscripts" auth="gmgpc"/>
+    <genre value="stock certificate" term="Manuscripts" auth="gmgpc"/>
+    <genre value="ledger" term="Manuscripts" auth="gmgpc"/>
+    <genre value="request for criminal matters" term="Manuscripts" auth="gmgpc"/>
+    <genre value="contract" term="Manuscripts" auth="gmgpc"/>
+    <genre value="affidavit" term="Manuscripts" auth="gmgpc"/>
+    <genre value="guardian appointment" term="Manuscripts" auth="gmgpc"/>
+    <genre value="indentured servitude contract" term="Manuscripts" auth="gmgpc"/>
+    <genre value="financial records" term="Manuscripts" auth="gmgpc"/>
+    <genre value="note" term="Manuscripts" auth="gmgpc"/>
+    <genre value="report card" term="Cards" auth="gmgpc"/>
+    <genre value="tax assessment record" term="Manuscripts" auth="gmgpc"/>
+    <genre value="complaint and search warrant" term="Manuscripts" auth="gmgpc"/>
+    <genre value="judgement" term="Manuscripts" auth="gmgpc"/>
+    <genre value="petition" term="Manuscripts" auth="gmgpc"/>
+    <genre value="summons" term="Manuscripts" auth="gmgpc"/>
+    <genre value="writ of injunction" term="Manuscripts" auth="gmgpc"/>
+    <genre value="calling card" term="Cards" auth="gmgpc"/>
+    <genre value="record" term="Manuscripts" auth="gmgpc"/>
+    <genre value="essay" term="Manuscripts" auth="gmgpc"/>
+    <genre value="award" term="Documents" auth="gmgpc"/>
+    <genre value="poem" term="Manuscripts" auth="gmgpc"/>
+    <genre value="various" term="Manuscripts" auth="gmgpc"/>
+    <genre value="inventory" term="Documents" auth="gmgpc"/>
+    <!-- aat -->
+    <genre value="black-and-white negatives" term="Photographs" auth="gmgpc"/>
+    <genre value="black-and-white negatives" term="Photographs" auth="gmgpc"/>
+    <genre value="black-and-white photograph" term="Photographs" auth="gmgpc"/>
+    <genre value="black-and-white print (photograph)" term="Photographs" auth="gmgpc"/>
+    <genre value="black-and-white prints (photographs)" term="Photographs" auth="gmgpc"/>
+    <genre value="carte-de-visite" term="Photographs" auth="gmgpc"/>
+    <genre value="color negatives" term="Photographs" auth="gmgpc"/>
+    <genre value="color prints (photographs)" term="Photographs" auth="gmgpc"/>
+    <genre value="color transparencies" term="Photographs" auth="gmgpc"/>
+    <genre value="digital images" term="Photographs" auth="gmgpc"/>
+    <genre value="mounted black-and-white photograph" term="Photographs" auth="gmgpc"/>
+    <genre value="photographic postcards" term="Photographs" auth="gmgpc"/>
+    <genre value="sepia print (photograph)" term="Photographs" auth="gmgpc"/>
+    <!-- marcgt -->
+    <genre value="book" term="Books" auth="gmgpc"/>
+    <genre value="drama" term="Sound recordings" auth="lctgm"/>
+    <genre value="genre" term="Albums" auth="gmgpc"/>
+    <genre value="legislation" term="Manuscripts" auth="gmgpc"/>
+    <genre value="letter" term="Correspondence" auth="lctgm"/>
+    <genre value="memoir" term="Manuscripts" auth="gmgpc"/>
+    <!-- rbprov -->
+    <genre value="Bookseller's labels" term="Manuscripts" auth="gmgpc"/>
+</genreLookup>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageLookUp>
+  <language value="af" code="afr" language="Afrikaans"/>
+  <language value="ar" code="ara" language="Arabic"/>
+  <language value="eu" code="eus" language="Basque"/>
+  <language value="bs" code="bos" language="Bosnian"/>
+  <language value="ca" code="cat" language="Catalan"/>
+  <language value="zh" code="zho" language="Chinese"/>
+  <language value="hr" code="hrv" language="Croatian"/>
+  <language value="cs" code="ces" language="Czech"/>
+  <language value="da" code="dan" language="Danish"/>
+  <language value="nl" code="nld" language="Dutch"/>
+  <language value="en" code="eng" language="English"/>
+  <language value="ang" code="ang" language="Old English"/>
+  <language value="et" code="est" language="Estonian"/>
+  <language value="fi" code="fin" language="Finnish"/>
+  <language value="fr" code="fra" language="French"/>
+  <language value="gl" code="glg" language="Galician"/>
+  <language value="de" code="deu" language="German"/>
+  <language value="el" code="ell" language="Greek"/>
+  <language value="haw" code="haw" language="Hawaiian"/>
+  <language value="he" code="heb" language="Hebrew"/>
+  <language value="hu" code="hun" language="Hungarian"/>
+  <language value="is" code="isl" language="Icelandic"/>
+  <language value="ga" code="gle" language="Irish"/>
+  <language value="it" code="ita" language="Italian"/>
+  <language value="ja" code="jpn" language="Japanese"/>
+  <language value="ko" code="kor" language="Korean"/>
+  <language value="la" code="lat" language="Latin"/>
+  <language value="lv" code="lav" language="Latvian"/>
+  <language value="lt" code="lit" language="Lithuanian"/>
+  <language value="no" code="nob" language="Norwegian"/>
+  <language value="pl" code="pol" language="Polish"/>
+  <language value="pt" code="por" language="Portuguese"/>
+  <language value="ro" code="ron" language="Romanian"/>
+  <language value="ru" code="rus" language="Russian"/>
+  <language value="sa" code="san" language="Sanskrit"/>
+  <language value="sl" code="slv" language="Slovenian"/>
+  <language value="st" code="sot" language="Sotho"/>
+  <language value="es" code="spa" language="Spanish"/>
+  <language value="sv" code="swe" language="Swedish"/>
+  <language value="tn" code="tsn" language="Tswana"/>
+  <language value="tr" code="tur" language="Turkish"/>
+  <language value="uk" code="ukr" language="Ukrainian"/>
+  <language value="ve" code="ven" language="Venda"/>
+  <language value="cy" code="cym" language="Welsh"/>
+  <language value="yi" code="yid" language="Yiddish"/>
+  <language value="zu" code="zul" language="Zulu"/> 
+  <language value="" code="zxx" language="Not applicable"/>
+</LanguageLookUp>
