@@ -57,6 +57,7 @@
                             $localColl = 'MS1986041' or
                             $localColl = 'MS2012004' or
                             $localColl = 'MS2013043' or
+                            $localColl = 'MS1986118' or
                             $localColl = 'BC2004121'">                            
                             <xsl:apply-templates select="mods:relatedItem[@type='host']" mode="passThru"/>
                         </xsl:when> 
