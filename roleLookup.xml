@@ -20,7 +20,7 @@
   <role text="Associated name" code="asn"/>
   <role text="Attributed name" code="att"/>
   <role text="Auctioneer" code="auc"/>
-  <role text="Author" code="aut"/>
+  <role text="Author" code="aut" usage="primary"/>
   <role text="Author in quotations or text abstracts" code="aqt"/>
   <role text="Author of afterword, colophon, etc." code="aft"/>
   <role text="Author of dialog" code="aud"/>
@@ -54,7 +54,7 @@
   <role text="Complainant" code="cpl"/>
   <role text="Complainant-appellant" code="cpt"/>
   <role text="Complainant-appellee" code="cpe"/>
-  <role text="Composer" code="cmp"/>
+  <role text="Composer" code="cmp" usage="primary"/>
   <role text="Compositor" code="cmt"/>
   <role text="Conceptor" code="ccp"/>
   <role text="Conductor" code="cnd"/>
@@ -77,7 +77,7 @@
   <role text="Court governed" code="cou"/>
   <role text="Court reporter" code="crt"/>
   <role text="Cover designer" code="cov"/>
-  <role text="Creator" code="cre"/>
+  <role text="Creator" code="cre" usage="primary"/>
   <role text="Curator" code="cur"/>
   <role text="Dancer" code="dnc"/>
   <role text="Data contributor" code="dtc"/>
@@ -181,7 +181,7 @@
   <role text="Patron" code="pat"/>
   <role text="Performer" code="prf"/>
   <role text="Permitting agency" code="pma"/>
-  <role text="Photographer" code="pht"/>
+  <role text="Photographer" code="pht" usage="primary"/>
   <role text="Plaintiff" code="ptf"/>
   <role text="Plaintiff-appellant" code="ptt"/>
   <role text="Plaintiff-appellee" code="pte"/>

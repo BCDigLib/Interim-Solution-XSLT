@@ -56,6 +56,7 @@
                             $localColl = 'MS2011027' or
                             $localColl = 'MS1986041' or
                             $localColl = 'MS2012004' or
+                            $localColl = 'MS2013043' or
                             $localColl = 'BC2004121'">                            
                             <xsl:apply-templates select="mods:relatedItem[@type='host']" mode="passThru"/>
                         </xsl:when> 
@@ -226,9 +227,13 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:for-each>
-            <xsl:if test="mods:role/mods:roleTerm = 'Author' or mods:role/mods:roleTerm = 'Creator' or mods:role/mods:roleTerm = 'creator' or mods:role/mods:roleTerm = 'Composer' or mods:role/mods:roleTerm = 'Photographer'">
-                <xsl:attribute name="usage">primary</xsl:attribute>     
-            </xsl:if>
+            <xsl:choose>
+                <xsl:when test="position()='1'">
+                    <xsl:if test="mods:role/mods:roleTerm = 'Author' or mods:role/mods:roleTerm = 'Creator' or mods:role/mods:roleTerm = 'creator' or mods:role/mods:roleTerm = 'Composer' or mods:role/mods:roleTerm = 'Photographer'">
+                        <xsl:attribute name="usage">primary</xsl:attribute>
+                    </xsl:if>
+                </xsl:when>
+            </xsl:choose>    
             <!-- Fix some ugly mods:relatedItem/mods:name nodes -->
             <xsl:if test="not(@type)">
                 <xsl:if test="mods:namePart[@type='given'] or mods:namePart[@type='family']">
@@ -297,13 +302,13 @@
                                         </xsl:call-template>                                
                                     </xsl:when>
                                     <!-- We usually have text but not code -->
-                                    <!--xsl:when test="mods:roleTerm[@type='code']">
+                                    <xsl:when test="mods:roleTerm[@type='code']">
                                         <xsl:call-template name="processRole">
                                             <xsl:with-param name="paraRole">
                                                 <xsl:value-of select="mods:roleTerm[@type='code']"/>
                                             </xsl:with-param>
                                         </xsl:call-template>                                
-                                    </xsl:when-->
+                                    </xsl:when> 
                                 </xsl:choose>
                             </xsl:otherwise>
                         </xsl:choose>  
