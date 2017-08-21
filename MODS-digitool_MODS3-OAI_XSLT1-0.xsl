@@ -57,6 +57,7 @@
                             $localColl = 'MS1986041' or
                             $localColl = 'MS2012004' or
                             $localColl = 'MS2013043' or
+                            $localColl = 'MS1986118' or
                             $localColl = 'BC2004121'">                            
                             <xsl:apply-templates select="mods:relatedItem[@type='host']" mode="passThru"/>
                         </xsl:when> 
@@ -215,6 +216,8 @@
     
     <!-- DONE -->
     <xsl:template match="mods:name">
+        
+        
         <xsl:element name="mods:name">
             <xsl:for-each select="@*">
                 <xsl:choose>
@@ -227,13 +230,22 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:for-each>
-            <xsl:choose>
+        <!--    <xsl:choose>
                 <xsl:when test="position()='1'">
                     <xsl:if test="mods:role/mods:roleTerm = 'Author' or mods:role/mods:roleTerm = 'Creator' or mods:role/mods:roleTerm = 'creator' or mods:role/mods:roleTerm = 'Composer' or mods:role/mods:roleTerm = 'Photographer'">
                         <xsl:attribute name="usage">primary</xsl:attribute>
                     </xsl:if>
                 </xsl:when>
-            </xsl:choose>    
+            </xsl:choose>    -->
+            <xsl:if
+                test="(mods:role/mods:roleTerm = 'Author' or mods:role/mods:roleTerm = 'Creator' or mods:role/mods:roleTerm = 'creator' or mods:role/mods:roleTerm = 'Composer' or mods:role/mods:roleTerm = 'Photographer')">
+                
+                <xsl:if test="(count(preceding-sibling::mods:name/mods:role['creator'])='0') and (count(preceding-sibling::mods:name/mods:role['Creator'])='0') and (count(preceding-sibling::mods:name/mods:role['Author'])='0') and (count(preceding-sibling::mods:name/mods:role['Composer'])='0') and (count(preceding-sibling::mods:name/mods:role['Photographer'])='0')">
+                                       
+                    <xsl:attribute name="usage">primary</xsl:attribute>
+                </xsl:if>
+                
+            </xsl:if>
             <!-- Fix some ugly mods:relatedItem/mods:name nodes -->
             <xsl:if test="not(@type)">
                 <xsl:if test="mods:namePart[@type='given'] or mods:namePart[@type='family']">
@@ -257,7 +269,8 @@
                 <xsl:otherwise>
                     <xsl:element name="mods:displayForm">
                         <xsl:choose>
-                            <xsl:when test="mods:namePart[@type='given'] or mods:namePart[@type='family']">
+                            <xsl:when
+                                test="mods:namePart[@type='given'] or mods:namePart[@type='family']">
                                 <xsl:for-each select="mods:namePart">
                                     <xsl:value-of select="."/>
                                     <xsl:if test="position() != last()">
@@ -278,16 +291,19 @@
                 </xsl:otherwise>
             </xsl:choose>
             <xsl:choose>
-                <xsl:when test="mods:role">         
+                <xsl:when test="mods:role">
                     <xsl:for-each select="mods:role">
-                       <xsl:choose>
+                        <xsl:choose>
                             <xsl:when test="count(mods:roleTerm[@type='text']) > 1">
                                 <xsl:for-each select="mods:roleTerm[@type='text']">
                                     <xsl:call-template name="processRole">
                                         <xsl:with-param name="paraRole">
                                             <!-- Normalize for lookup -->
-                                            <xsl:value-of select="translate(substring(.,1,1),'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')"/>
-                                            <xsl:value-of select="translate(substring(.,2),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')"/>                                        
+                                            <xsl:value-of
+                                                select="translate(substring(.,1,1),'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')"/>
+                                            <xsl:value-of
+                                                select="translate(substring(.,2),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')"
+                                            />
                                         </xsl:with-param>
                                     </xsl:call-template>
                                 </xsl:for-each>
@@ -299,7 +315,7 @@
                                             <xsl:with-param name="paraRole">
                                                 <xsl:value-of select="mods:roleTerm[@type='text']"/>
                                             </xsl:with-param>
-                                        </xsl:call-template>                                
+                                        </xsl:call-template>
                                     </xsl:when>
                                     <!-- We usually have text but not code -->
                                     <xsl:when test="mods:roleTerm[@type='code']">
@@ -311,7 +327,7 @@
                                     </xsl:when> 
                                 </xsl:choose>
                             </xsl:otherwise>
-                        </xsl:choose>  
+                        </xsl:choose>
                     </xsl:for-each>
                 </xsl:when>
                 <xsl:otherwise>
@@ -320,11 +336,11 @@
                         <xsl:with-param name="paraRole">
                             <xsl:text>Contributor</xsl:text>
                         </xsl:with-param>
-                    </xsl:call-template>                     
+                    </xsl:call-template>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:element>
-    </xsl:template>    
+    </xsl:template>
     
     <!-- DONE -->
     <xsl:template name="processRole">

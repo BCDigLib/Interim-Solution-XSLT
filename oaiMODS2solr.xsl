@@ -456,7 +456,7 @@
     </xsl:template>
     <xsl:template match="mods:titleInfo" mode="processrelatedItem">
         <xsl:value-of select="mods:nonSort"/>
-        <xsl:value-of select="mods:title"/>
+        <xsl:value-of select="normalize-space(mods:title)"/>
         <xsl:if test="mods:subTitle">
             <xsl:value-of select="concat(': ', mods:nonSort)"/>
         </xsl:if>
