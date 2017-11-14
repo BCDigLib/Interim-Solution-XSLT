@@ -5,7 +5,7 @@
        <record>
         <mods:location>
             <mods:physicalLocation>
-                <xsl:text>Boston College University Libraries</xsl:text>
+                <xsl:text>Boston College</xsl:text>
             </mods:physicalLocation>            
             <mods:url usage='primary display' access='object in context'>
                 <!--xsl:value-of select="concat(/*/urls/url[@type='resource_discovery'],'&amp;local_base=GEN01-BCD01')"/-->
