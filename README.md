@@ -10,8 +10,9 @@ config file is stored [on Bitbucket](https://git.bc.edu:7993/projects/DIGLIB/rep
 for version control (BC login required).
 
 ### Rebuilding the DigiTool Feed
-The DigiTool OAI feed refreshes every morning. However, any changes to the XSLT
-will require rebuilding the feed from scratch:
+The DigiTool OAI feed refreshes every morning. However, any changes to an XSLT
+will require rebuilding the feed from scratch. The DigiTool OAI feed comprises
+several 'replications', each of which can be rebuilt individually:
 
 1. Go to the DigiTool web admin interface
 2. Select 'Management', then log in as the root user
@@ -20,16 +21,10 @@ will require rebuilding the feed from scratch:
 5. Under 'Maintenance job selection', select 'Repository Replication,' then click
 'Next'
 6. Click the 'Admin Unit' dropdown and select 'BCD01'
-7. Click the 'Replication Name' dropdown and select 'oai_bcd01mods'
+7. Click the 'Replication Name' dropdown and select the replication you'd like to
+reload
 8. Check the box that reads 'Create Replication From Scratch'
 9. Click 'Next', then click 'Confirm' to run the job
-10. Repeat steps 5-9, but select 'oai_marc02' as the replication in step 7
-
-It's important to run both the 'oai_bcd01mods' replication and the 'oai_marc02'
-replication *in that order*. The 'oai_bcd01mods' transforms all of the MODS
-records and adds them to the bc:digcomm:mods01 set, and 'oai_marc02' transforms
-legacy MARC records to MODS and adds then to the bc:digcomm:mods01 set. This
-ensures that all of our records will be harvested by Digital Commonwealth.
 
 Visit the [Bitbucket repo](https://git.bc.edu:7993/projects/DIGLIB/repos/digitoolconfigfiles/browse)
 for more information on currently active DigiTool replications and how to modify
