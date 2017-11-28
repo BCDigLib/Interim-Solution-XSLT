@@ -12,7 +12,7 @@
                 <xsl:value-of select="concat('https://bclsco.bc.edu/catalog/oai:dcollections.bc.edu:',/*/pid)"/>
             </mods:url>                    
             <mods:url access='preview'>
-                <xsl:value-of select="/*/relations/relation[type='manifestation'][usage_type='THUMBNAIL']/urls/url[@type='stream']"/>
+                <xsl:value-of select="concat('https://dcollections.bc.edu/webclient/DeliveryManager?pid=',/*/relations/relation[type='manifestation']/pid)"/>
             </mods:url>
             <mods:url access='raw object'>
                 <xsl:value-of select="concat('https://dcollections.bc.edu/webclient/DeliveryManager?pid=',/*/pid,'&amp;custom_att_2=simple_viewer&amp;local_base=GEN01-BCD01')"/>
