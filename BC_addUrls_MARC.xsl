@@ -3,35 +3,27 @@
     <xsl:output method="xml" indent="yes"/>
     <xsl:template match="/">
         <record>
-            <xsl:for-each select="/*/urls/url[@type='resource_discovery']">
-                <datafield tag="856" ind1=" " ind2=" ">
-                    <subfield code="u">
-                        <xsl:value-of select="concat(., '&amp;local_base=GEN01-')"/>
-                        <xsl:value-of select="//control/admin_unit"/>
-                    </subfield>
-                </datafield>
-            </xsl:for-each>
-            <xsl:for-each select="/*/relations/relation[usage_type='THUMBNAIL']/urls/url[@type='stream']">
-                <datafield tag="856" ind1=" " ind2=" ">
-                    <subfield code="u">
-                        <xsl:value-of select="."/>
-                    </subfield>
-                    <subfield code="x">
-                        <xsl:text>THUMBNAIL</xsl:text>
-                    </subfield>
-                </datafield>
-            </xsl:for-each>   
-            <xsl:for-each select="/*/urls/url[@type='stream_manifestation']">
-                <datafield tag="856" ind1="4" ind2="0">
-                    <subfield code="u">
-                        <xsl:value-of select="concat(., '&amp;local_base=GEN01-')"/>
-                        <xsl:value-of select="//control/admin_unit"/>
-                    </subfield>
-                    <subfield code="x">
-                        <xsl:text>STREAM</xsl:text>
-                    </subfield>                    
-                </datafield>
-            </xsl:for-each>            
+            <datafield tag="856" ind1=" " ind2=" ">
+                <subfield code="u">
+                    <xsl:value-of select="concat('https://bclsco.bc.edu/catalog/oai:dcollections.bc.edu:',/*/pid)"/>
+                </subfield>
+            </datafield>
+            <datafield tag="856" ind1=" " ind2=" ">
+                <subfield code="u">
+                    <xsl:value-of select="concat('https://dcollections.bc.edu/webclient/DeliveryManager?pid=',/*/relations/relation[type='manifestation']/pid)"/>
+                </subfield>
+                <subfield code="x">
+                    <xsl:text>THUMBNAIL</xsl:text>
+                </subfield>
+            </datafield>
+            <datafield tag="856" ind1="4" ind2="0">
+                <subfield code="u">
+                    <xsl:value-of select="concat('https://dcollections.bc.edu/webclient/DeliveryManager?pid=',/*/pid,'&amp;custom_att_2=simple_viewer&amp;local_base=GEN01-BCD01')"/>
+                </subfield>
+                <subfield code="x">
+                    <xsl:text>STREAM</xsl:text>
+                </subfield>                    
+            </datafield>
         </record>
     </xsl:template>
 </xsl:stylesheet>
