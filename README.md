@@ -1,7 +1,7 @@
 # Interim-Solution-XSLT
 We use the DigiTool OAI provider to disseminate content to Primo, Digital
-Commonwealth, and Blacklight ((Boston College Special Collections Online)[https://bclsco.bc.edu]). This repository includes the transforms required
-for these workflows.
+Commonwealth, and Blacklight ((Boston College Special Collections Online)[https://bclsco.bc.edu]).
+This repository includes the transforms required for these workflows.
 
 ## DigiTool Repository Replication
 DigiTool generates its OAI feed based on the 'Repository Replication' job, which
@@ -53,6 +53,12 @@ Lookup files used by stylesheet:
 - languageLookup.xml
 - roleLookup.xml
 - genreLookup.xml
+
+### MARC21 to MARC21 Transform
+These files are used by the DigiTool OAI provider to normalize DigiTool MARC
+for Primo:
+- MARC21slimMARC21slim.xsl
+- BC_addUrls_MARC.xsl
 
 ## BCLSCO Solr Transform
 oaiMODS2solr.xsl: Used to transform OAI harvested MODS records from DigiTool
