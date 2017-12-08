@@ -8,7 +8,6 @@
           <xsl:text>Boston College</xsl:text>
         </mods:physicalLocation>            
         <mods:url usage='primary display' access='object in context'>
-          <!--xsl:value-of select="concat(/*/urls/url[@type='resource_discovery'],'&amp;local_base=GEN01-BCD01')"/-->
           <xsl:value-of select="concat('https://bclsco.bc.edu/catalog/oai:dcollections.bc.edu:',/*/pid)"/>
         </mods:url>                    
         <mods:url access='preview'>
